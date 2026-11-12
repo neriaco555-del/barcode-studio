@@ -1,0 +1,21 @@
+{
+  "generatedAt": null,
+  "totals": {
+    "installs": 0,
+    "opens": 0,
+    "qrDownloads": 0,
+    "barcodeDownloads": 0,
+    "scans": 0,
+    "updateDownloads": 0,
+    "siteDownloadClicks": 0,
+    "siteVisits": 0,
+    "actions": 0,
+    "uniqueInstalls": 0
+  },
+  "activeToday": 0,
+  "active7d": 0,
+  "byDay": [],
+  "byHourToday": [],
+  "byAction": {},
+  "recent": []
+}

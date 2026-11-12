@@ -1,6 +1,69 @@
 import QRCode from 'qrcode'
 import './style.css'
 
+const STATS_TOPIC = 'barcode-studio-stats-4c8e2f7a'
+const SITE_ID_KEY = 'barcode-site-id'
+const SITE_VISIT_KEY = 'barcode-site-visit'
+const VISIT_THROTTLE = 30 * 60 * 1000
+
+function siteId(): string {
+  try {
+    const existing = localStorage.getItem(SITE_ID_KEY)
+    if (existing) return existing
+    const created =
+      typeof crypto !== 'undefined' && 'randomUUID' in crypto
+        ? crypto.randomUUID()
+        : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 10)}`
+    localStorage.setItem(SITE_ID_KEY, created)
+    return created
+  } catch {
+    return `anon-${Date.now().toString(36)}`
+  }
+}
+
+function trackSite(event: string, extra: Record<string, unknown> = {}) {
+  try {
+    void fetch('https://ntfy.sh', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      keepalive: true,
+      body: JSON.stringify({
+        topic: STATS_TOPIC,
+        title: 'stats',
+        message: JSON.stringify({
+          v: 1,
+          install: siteId(),
+          event,
+          at: Math.floor(Date.now() / 1000),
+          extra,
+        }),
+        tags: ['bar_chart'],
+      }),
+    }).catch(() => undefined)
+  } catch {
+    // analytics should never break the page
+  }
+}
+
+try {
+  const lastVisit = Number(localStorage.getItem(SITE_VISIT_KEY)) || 0
+  if (Date.now() - lastVisit > VISIT_THROTTLE) {
+    localStorage.setItem(SITE_VISIT_KEY, String(Date.now()))
+    trackSite('site_visit', { page: 'landing' })
+  }
+} catch {
+  trackSite('site_visit', { page: 'landing' })
+}
+
+document.addEventListener('click', (event) => {
+  const target = event.target as HTMLElement | null
+  const link = target?.closest?.('a[href]') as HTMLAnchorElement | null
+  if (!link) return
+  if (link.href.includes('.apk')) {
+    trackSite('apk_download_click', { page: 'landing' })
+  }
+})
+
 const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 const header = document.getElementById('site-header')
 const progressBar = document.getElementById('progress-bar')

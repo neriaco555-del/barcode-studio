@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "notes": "עדכון מתוך האפליקציה: כפתור עדכון, התקנה ישירה, בדיקת גרסה ומצב מנהל — כל מה שחדש בגרסה הזו.",
+  "versionCode": 4,
+  "versionName": "1.1.2",
+  "notes": "ניהול התראות וסטטיסטיקות עבר לאתר הניהול, הוסר פעמון ההתראות מהאפליקציה, ואין יותר התראות אוטומטיות — רק כשהמנהל שולח.",
   "apkUrl": "https://neriaco555-del.github.io/barcode-studio/downloads/barcode-studio.apk",
   "publishedAt": "2026-11-12"
 }
