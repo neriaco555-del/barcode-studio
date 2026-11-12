@@ -134,6 +134,10 @@ for (const message of messages) {
   if (!payload || typeof payload.event !== 'string' || typeof payload.at !== 'number') {
     continue
   }
+  // Dev/browser builds report 1.1.1 — not real users.
+  if (payload.extra && payload.extra.version === '1.1.1') {
+    continue
+  }
 
   const at = payload.at
   const date = dateFormatter.format(new Date(at * 1000))
@@ -165,10 +169,8 @@ for (const message of messages) {
   } else if (event === 'apk_download_click') {
     store.totals.siteDownloadClicks += 1
     day.siteDownloads += 1
-    if (!store.dayUsers[date].includes(user)) store.dayUsers[date].push(user)
   } else if (event === 'site_visit') {
     store.totals.siteVisits += 1
-    if (!store.dayUsers[date].includes(user)) store.dayUsers[date].push(user)
   }
 
   store.totals.actions += 1
