@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>ברקוד סטודיו — הברקוד שמדבר בשם שלכם</title>
+    <meta
+      name="description"
+      content="יוצרים ברקודי QR ממותגים בסטייל של וואטסאפ, אינסטגרם, טיקטוק ועוד 30 אפליקציות. סורקים כל סוג ברקוד, מורידים PNG/SVG — והכל על המכשיר."
+    />
+    <meta name="theme-color" content="#07070c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ברקוד סטודיו — הברקוד שמדבר בשם שלכם" />
+    <meta
+      property="og:description"
+      content="יוצרים ברקודי QR ממותגים, סורקים כל סוג ברקוד ומורידים PNG/SVG. אפליקציית אנדרואיד בעברית, בלי פרסומות."
+    />
+    <meta property="og:image" content="./shots/hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">דילוג לתוכן</a>
+    <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+    <div class="aurora" aria-hidden="true">
+      <span class="blob b1"></span>
+      <span class="blob b2"></span>
+      <span class="blob b3"></span>
+      <span class="grid"></span>
+    </div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="ברקוד סטודיו — לדף הבית">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="26" height="26" fill="none">
+              <rect x="6" y="6" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="40" y="6" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="6" y="40" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="40" y="40" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="51" y="51" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="51" y="40" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="40" y="51" width="7" height="7" rx="2" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <b>ברקוד סטודיו</b>
+            <small>Barcode, but beautiful</small>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="ניווט ראשי">
+          <a href="#features">יכולות</a>
+          <a href="#templates">תבניות</a>
+          <a href="#scanner">סורק</a>
+          <a href="#formats">פורמטים</a>
+          <a href="#faq">שאלות</a>
+        </nav>
+
+        <a class="btn btn-sm btn-primary header-cta" href="./downloads/barcode-studio.apk" download>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+          הורדת APK
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="kicker">
+              <span class="dot"></span>
+              הברקוד של 2026
+            </span>
+            <h1>
+              כל קישור הופך ל<span class="grad">ברקוד שאי אפשר להתעלם ממנו</span>
+            </h1>
+            <p class="lead">
+              יוצרים ברקודי QR ממותגים בסטייל של וואטסאפ, אינסטגרם, טיקטוק ועוד
+              30 אפליקציות. סורקים כל סוג ברקוד עם המצלמה, מורידים PNG או SVG —
+              והכל קורה על המכשיר שלכם, בלי אינטרנט.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary btn-lg" href="./downloads/barcode-studio.apk" download>
+                <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+                הורדת APK
+                <span class="btn-meta">298KB</span>
+              </a>
+              <a class="btn btn-ghost btn-lg" href="#templates">
+                לראות את התבניות
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+              </a>
+            </div>
+
+            <ul class="hero-meta" aria-label="מידע מהיר">
+              <li><span class="tick" aria-hidden="true">✓</span> אנדרואיד 6+</li>
+              <li><span class="tick" aria-hidden="true">✓</span> עברית מלאה</li>
+              <li><span class="tick" aria-hidden="true">✓</span> עובד אופליין</li>
+              <li><span class="tick" aria-hidden="true">✓</span> בלי פרסומות</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" id="hero-visual">
+            <div class="phone-glow" aria-hidden="true"></div>
+            <div class="phone" id="hero-phone">
+              <div class="phone-screen">
+                <img
+                  src="./shots/hero.png"
+                  width="390"
+                  height="844"
+                  alt="מסך האפליקציה עם ברקוד QR בעיצוב Wi-Fi כחול, לוגו במרכז וסימון שהברקוד נבדק ונקרא בהצלחה"
+                />
+              </div>
+            </div>
+
+            <div class="float-card fc-1">
+              <span class="fc-icon wifi" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><path d="M12 20h.01"/></svg>
+              </span>
+              <span><b>תבנית Wi-Fi</b><small>גם לקישור ליוטיוב</small></span>
+            </div>
+
+            <div class="float-card fc-2">
+              <span class="fc-icon check" aria-hidden="true">✓</span>
+              <span><b>נבדק ונקרא</b><small>בדיקת קריאות אוטומטית</small></span>
+            </div>
+
+            <div class="float-card fc-3">
+              <span class="fc-icon export" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+              </span>
+              <span><b>PNG + SVG</b><small>מוכן להדפסה</small></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats-wrap" data-reveal>
+          <dl class="stats">
+            <div><dt data-count="30">0</dt><dd>תבניות אפליקציה</dd></div>
+            <div><dt data-count="8">0</dt><dd>סוגי תוכן</dd></div>
+            <div><dt data-count="12">0</dt><dd>פורמטי ברקוד</dd></div>
+            <div><dt data-count="100" data-suffix="%">0</dt><dd>על המכשיר</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track" id="marquee-track">
+          <span>אינסטגרם</span><i></i><span>וואטסאפ</span><i></i><span>טיקטוק</span><i></i>
+          <span>יוטיוב</span><i></i><span>פייסבוק</span><i></i><span>טלגרם</span><i></i>
+          <span>ספוטיפיי</span><i></i><span>סנאפצ׳אט</span><i></i><span>X</span><i></i>
+          <span>לינקדאין</span><i></i><span>אמזון</span><i></i><span>PayPal</span><i></i>
+          <span>וייז</span><i></i><span>גוגל מפות</span><i></i><span>אובר</span><i></i>
+          <span>בוקינג</span><i></i><span>eBay</span><i></i><span>עלי אקספרס</span><i></i>
+          <span>איירבי אנד בי</span><i></i><span>וייבאר</span><i></i><span>אפל</span><i></i>
+          <span>גיטהאב</span><i></i><span>דיסקורד</span><i></i><span>נטפליקס</span><i></i>
+          <span>פינטרסט</span><i></i><span>רדיט</span><i></i><span>טוויץ׳</span><i></i>
+        </div>
+      </div>
+
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <span class="kicker"><span class="dot"></span> מה בפנים</span>
+            <h2>כלי אחד. כל הברקודים. <span class="grad">בלי פשרות.</span></h2>
+            <p>
+              לא עוד אפליקציית ברקודים משעממת. ברקוד סטודיו נותן לכם שליטה מלאה
+              על איך הברקוד נראה, מה הוא עושה ואיך הוא נסרק.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-orange" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/><path d="M14 14h3v3h-3z"/><path d="M20 14v3"/><path d="M14 20h3"/><path d="M20 20h.01"/></svg>
+              </span>
+              <h3>ברקודים ממותגים</h3>
+              <p>30 תבניות אפליקציה ו־8 תבניות תוכן. הברקוד מקבל צבע, גרדיאנט ולוגו במרכז — כמו שהמותג שלכם היה עושה.</p>
+              <span class="tag">Instagram · WhatsApp · TikTok · Wi-Fi</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-cyan" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+              </span>
+              <h3>סורק עם מנוע מקורי</h3>
+              <p>האפליקציה משתמשת במנוע הסריקה של אנדרואיד (BarcodeDetector) לסריקה מהירה ומדויקת, עם מצלמה אחורית, פנס וצילום פריים.</p>
+              <span class="tag">מהיר · מדויק · בלי מאמץ</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-violet" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5v14"/><path d="M6.5 5v14"/><path d="M10 5v14"/><path d="M13.5 5v14"/><path d="M17 5v14"/><path d="M21 5v14"/></svg>
+              </span>
+              <h3>כל הפורמטים</h3>
+              <p>QR, Data Matrix, Aztec, PDF417, EAN-13/8, UPC-A/E, Code 128, Code 39, Code 93, ITF ו־Codabar. גם 1D וגם 2D.</p>
+              <span class="tag">12 פורמטים · יצירה וסריקה</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-pink" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><path d="M12 20h.01"/></svg>
+              </span>
+              <h3>Wi-Fi זה לא רק סיסמה</h3>
+              <p>רוצים ברקוד Wi-Fi לרשת? מלאו שם וסיסמה. רוצים להשתמש בתבנית Wi-Fi לקישור? פשוט מדביקים קישור — בלי שדות כפויים.</p>
+              <span class="tag">תבנית אחת · אינסוף תוכן</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-gold" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/><path d="m15 5 4 4"/></svg>
+              </span>
+              <h3>עיצוב בשליטה מלאה</h3>
+              <p>צבעים, גרדיאנט, צורת נקודות ופינות, גודל לוגו, לוגו אישי, רקע שקוף ושוליים. אתם מחליטים איך זה נראה.</p>
+              <span class="tag">נקודות · פינות · לוגו · רקע</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-green" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </span>
+              <h3>בדיקת קריאות אוטומטית</h3>
+              <p>כל ברקוד נבדק מיד אחרי היצירה. אם משהו לא קריא, מקבלים התראה וכפתור מעבר למצב סריקה אמין — בלי ניחושים.</p>
+              <span class="tag">נבדק · מאומת · מוכן</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-blue" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              </span>
+              <h3>PNG ו־SVG באיכות הדפסה</h3>
+              <p>מורידים PNG חד או SVG וקטורי, עם שוליים תקניים וניגודיות משופרת. מוכן למדבקה, שלט, תפריט או מצגת.</p>
+              <span class="tag">PNG · SVG · 1024px+</span>
+            </article>
+
+            <article class="feature card" data-reveal>
+              <span class="f-icon grad-slate" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              </span>
+              <h3>פרטי, מקומי, שלכם</h3>
+              <p>אין הרשמה, אין שרת ואין פרסומות. התוכן נשמר רק במכשיר, ואפשר להשתמש בו גם בלי אינטרנט אחרי ההתקנה.</p>
+              <span class="tag">0 פרסומות · 0 חשבונות</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="templates">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <span class="kicker"><span class="dot"></span> גלריית תבניות</span>
+            <h2>תבניות שלא רואים <span class="grad">בכל מקום.</span></h2>
+            <p>
+              כל התבניות האלה נוצרו בתוך האפליקציה — עם אייקון במרכז, גרדיאנט
+              ובחירת נקודות ופינות. התבנית קובעת איך זה נראה; התוכן תמיד שלכם.
+            </p>
+          </div>
+
+          <div class="qr-gallery">
+            <figure class="qr-card" style="--glow: 225 48 108" data-reveal>
+              <div class="qr-frame"><img src="./qr/instagram.png" width="720" height="720" alt="ברקוד QR בסגנון אינסטגרם" loading="lazy" /></div>
+              <figcaption><b>אינסטגרם</b><span>גרדיאנט כתום־ורוד · עיגולים</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 37 211 102" data-reveal>
+              <div class="qr-frame"><img src="./qr/whatsapp.png" width="720" height="720" alt="ברקוד QR בסגנון וואטסאפ" loading="lazy" /></div>
+              <figcaption><b>וואטסאפ</b><span>ירוק מותג · לוגו במרכז</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 0 230 230" data-reveal>
+              <div class="qr-frame"><img src="./qr/tiktok.png" width="720" height="720" alt="ברקוד QR בסגנון טיקטוק" loading="lazy" /></div>
+              <figcaption><b>טיקטוק</b><span>ציאן־ורוד · טייל שחור</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 255 0 51" data-reveal>
+              <div class="qr-frame"><img src="./qr/youtube.png" width="720" height="720" alt="ברקוד QR בסגנון יוטיוב" loading="lazy" /></div>
+              <figcaption><b>יוטיוב</b><span>אדום עז · פינות מעוגלות</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 30 215 96" data-reveal>
+              <div class="qr-frame"><img src="./qr/spotify.png" width="720" height="720" alt="ברקוד QR בסגנון ספוטיפיי" loading="lazy" /></div>
+              <figcaption><b>ספוטיפיי</b><span>ירוק אורגני · נקודות</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 255 252 0" data-reveal>
+              <div class="qr-frame"><img src="./qr/snapchat.png" width="720" height="720" alt="ברקוד QR בסגנון סנאפצ׳אט" loading="lazy" /></div>
+              <figcaption><b>סנאפצ׳אט</b><span>צהוב · אייקון שחור</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 59 130 246" data-reveal>
+              <div class="qr-frame"><img src="./qr/wifi-network.png" width="720" height="720" alt="ברקוד QR של רשת Wi-Fi בסגנון כחול" loading="lazy" /></div>
+              <figcaption><b>Wi-Fi</b><span>כחול · אייקון Wi-Fi</span></figcaption>
+            </figure>
+            <figure class="qr-card" style="--glow: 148 163 184" data-reveal>
+              <div class="qr-frame"><img src="./qr/classic.png" width="720" height="720" alt="ברקוד QR קלאסי בשחור לבן" loading="lazy" /></div>
+              <figcaption><b>קלאסי</b><span>שחור על לבן · תקני</span></figcaption>
+            </figure>
+          </div>
+
+          <p class="gallery-note" data-reveal>
+            <span class="mini-badge">טיפ</span>
+            אפשר לבחור תבנית Wi-Fi כחולה ולהדביק בה קישור לערוץ יוטיוב — התבנית
+            לא כופה סיסמה, היא רק עיצוב.
+          </p>
+        </div>
+      </section>
+
+      <section class="section split" id="wifi">
+        <div class="container split-grid">
+          <div class="split-copy" data-reveal>
+            <span class="kicker"><span class="dot"></span> Wi-Fi, גרסת 2026</span>
+            <h2>רשת, סיסמה — <span class="grad">או סתם קישור.</span></h2>
+            <p>
+              תבנית Wi-Fi נותנת לברקוד אייקון Wi-Fi וצבעים כחולים, אבל היא לא
+              מחליטה בשבילכם מה התוכן. אפשר למלא שם רשת וסיסמה, ואפשר להדביק
+              קישור לערוץ יוטיוב, לעמוד נחיתה או לכל דבר אחר.
+            </p>
+            <ul class="checks">
+              <li><span>✓</span> רשת + סיסמה בהצפנת WPA/WEP או ללא סיסמה</li>
+              <li><span>✓</span> אפשרות לרשת מוסתרת</li>
+              <li><span>✓</span> תבנית Wi-Fi לכל סוג תוכן — בלי שדות כפויים</li>
+              <li><span>✓</span> בדיקת קריאות אוטומטית אחרי כל שינוי</li>
+            </ul>
+            <a class="btn btn-ghost" href="#download">נסו בעצמכם — הורידו את האפליקציה</a>
+          </div>
+          <div class="phone-wrap" data-reveal>
+            <div class="phone phone-sm">
+              <div class="phone-screen">
+                <img src="./shots/wifi-link.png" width="390" height="844" alt="ברקוד Wi-Fi כחול עם קישור יוטיוב ומסומן כנבדק" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split split-reverse" id="scanner">
+        <div class="container split-grid">
+          <div class="split-copy" data-reveal>
+            <span class="kicker"><span class="dot"></span> הסורק</span>
+            <h2>סורק אחד. <span class="grad">כל הברקודים.</span></h2>
+            <p>
+              מנוע הסריקה המקורי של אנדרואיד עובד מאחורי הקלעים, עם המצלמה
+              האחורית, פנס, בחירת מצלמה וסריקה מתוך תמונה. מקבלים תוצאה, היסטוריה
+              ופעולות — בלי לצאת מהאפליקציה.
+            </p>
+            <ul class="checks">
+              <li><span>✓</span> סריקה חיה של QR ו־1D במהירות</li>
+              <li><span>✓</span> מצלמה אחורית אוטומטית + פנס</li>
+              <li><span>✓</span> כפתור צילום וסריקה לפריים מדויק</li>
+              <li><span>✓</span> פתיחת קישור, העתקה ויצירת ברקוד מהתוצאה</li>
+            </ul>
+          </div>
+          <div class="phone-wrap" data-reveal>
+            <div class="phone phone-sm">
+              <div class="phone-screen">
+                <img src="./shots/scanner.png" width="390" height="844" alt="מסך הסורק עם תוצאת סריקה מוצלחת של קישור" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="formats">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <span class="kicker"><span class="dot"></span> גם 1D, גם 2D</span>
+            <h2>כל הפורמטים. <span class="grad">בלי להתפשר.</span></h2>
+            <p>
+              בין אם אתם מדפיסים מדבקת מוצר, בונים כרטיס ביקור דיגיטלי או סורקים
+              קוד בחנות — כנראה יש לזה פורמט, והוא כאן.
+            </p>
+          </div>
+
+          <div class="formats-grid">
+            <div class="format-card card" data-reveal>
+              <h3>דו־ממדי</h3>
+              <div class="chips">
+                <span>QR Code</span><span>Data Matrix</span><span>Aztec</span><span>PDF417</span>
+              </div>
+            </div>
+            <div class="format-card card" data-reveal>
+              <h3>מוצרים וקמעונאות</h3>
+              <div class="chips">
+                <span>EAN-13</span><span>EAN-8</span><span>UPC-A</span><span>UPC-E</span>
+              </div>
+            </div>
+            <div class="format-card card" data-reveal>
+              <h3>תעשייה ולוגיסטיקה</h3>
+              <div class="chips">
+                <span>Code 128</span><span>Code 39</span><span>Code 93</span><span>ITF</span><span>Codabar</span>
+              </div>
+            </div>
+            <div class="format-card card" data-reveal>
+              <h3>תוכן</h3>
+              <div class="chips">
+                <span>קישור</span><span>Wi-Fi</span><span>איש קשר</span><span>אימייל</span><span>SMS</span><span>טלפון</span><span>מיקום</span><span>טקסט</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="barcode-band" data-reveal>
+            <div class="barcode-copy">
+              <span class="kicker"><span class="dot"></span> ברקוד 1D</span>
+              <h3>גם ברקוד “רגיל” — <span class="grad">בעיצוב שלכם.</span></h3>
+              <p>
+                Code 128 לכל תוכן, EAN/UPC למוצרים ועוד. בוחרים צבע, מורידים
+                PNG או SVG, ומקבלים בדיקת קריאות אוטומטית.
+              </p>
+            </div>
+            <div class="barcode-visual">
+              <div class="barcode-panel">
+                <span class="barcode-panel-label">CODE 128 · נבדק ✓</span>
+                <img src="./shots/barcode-code.png" width="2552" height="584" alt="ברקוד Code 128 של barcode.studio" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <span class="kicker"><span class="dot"></span> שלוש דקות, שלושה צעדים</span>
+            <h2>מ־<span class="grad">קישור</span> לברקוד מוכן.</h2>
+          </div>
+          <ol class="steps">
+            <li class="step card" data-reveal>
+              <span class="step-num">01</span>
+              <h3>בוחרים תוכן</h3>
+              <p>קישור, Wi-Fi, איש קשר, אימייל, SMS, טלפון, מיקום או טקסט. ממלאים את השדות או מדביקים.</p>
+            </li>
+            <li class="step card" data-reveal>
+              <span class="step-num">02</span>
+              <h3>בוחרים תבנית</h3>
+              <p>אפליקציה, תבנית תוכן או עיצוב אישי. צבעים, גרדיאנט, נקודות, פינות ולוגו — הכל בלחיצה.</p>
+            </li>
+            <li class="step card" data-reveal>
+              <span class="step-num">03</span>
+              <h3>מורידים או סורקים</h3>
+              <p>PNG/SVG באיכות הדפסה, או סורקים ישר מהמצלמה. הברקוד נבדק אוטומטית לפני שיוצא מהבית.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="container">
+          <div class="download-card" data-reveal>
+            <div class="download-copy">
+              <span class="kicker"><span class="dot"></span> מוכנים?</span>
+              <h2>הברקוד הבא שלכם <span class="grad">כבר כאן.</span></h2>
+              <p>
+                מורידים את ה־APK, מתקינים, ומתחילים ליצור ברקודים שנראים כמו
+                שמותג אמיתי היה עושה. בלי הרשמה, בלי פרסומות ובלי הפתעות.
+              </p>
+
+              <div class="download-meta">
+                <div><b>גרסה</b><span>1.0</span></div>
+                <div><b>גודל</b><span>298KB</span></div>
+                <div><b>אנדרואיד</b><span>6.0+</span></div>
+                <div><b>שפה</b><span>עברית</span></div>
+              </div>
+
+              <div class="download-actions">
+                <a class="btn btn-primary btn-lg" id="apk-download" href="./downloads/barcode-studio.apk" download>
+                  <svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+                  הורדת האפליקציה
+                </a>
+                <button class="btn btn-ghost btn-lg" id="copy-link" type="button">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+                  העתקת קישור
+                </button>
+              </div>
+
+              <details class="install">
+                <summary>איך מתקינים? (זה לוקח פחות מדקה)</summary>
+                <ol>
+                  <li>מורידים את קובץ ה־APK למכשיר.</li>
+                  <li>אם מופיעה הודעה, מאשרים “התקנה ממקורות לא ידועים” עבור הדפדפן או מנהל הקבצים.</li>
+                  <li>פותחים את ברקוד סטודיו ומאשרים גישה למצלמה כדי לסרוק.</li>
+                </ol>
+              </details>
+            </div>
+
+            <div class="download-qr">
+              <div class="download-qr-card">
+                <canvas id="download-qr" width="480" height="480" aria-label="ברקוד QR להורדת האפליקציה"></canvas>
+                <span class="download-qr-label">
+                  <span class="scan-dot"></span>
+                  סורקים להורדה
+                </span>
+              </div>
+              <p class="download-qr-note">הברקוד מצביע ישירות לקובץ ה־APK של האתר הזה.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <div class="container faq-wrap">
+          <div class="section-head" data-reveal>
+            <span class="kicker"><span class="dot"></span> שאלות נפוצות</span>
+            <h2>כל מה שרציתם <span class="grad">לדעת.</span></h2>
+          </div>
+
+          <div class="faq">
+            <details data-reveal>
+              <summary>האפליקציה בחינם?</summary>
+              <p>כן. בלי רכישות, בלי מנוי ובלי פרסומות. מורידים ומשתמשים.</p>
+            </details>
+            <details data-reveal>
+              <summary>צריך אינטרנט כדי להשתמש?</summary>
+              <p>רק כדי להוריד את ה־APK. אחרי ההתקנה כל היצירה, הסריקה וההורדות עובדות לגמרי על המכשיר.</p>
+            </details>
+            <details data-reveal>
+              <summary>הנתונים שלי נשלחים לשרת?</summary>
+              <p>לא. אין שרת ואין חשבון. התוכן נשמר מקומית במכשיר שלכם.</p>
+            </details>
+            <details data-reveal>
+              <summary>אפשר ליצור ברקוד Wi-Fi שהוא בעצם קישור?</summary>
+              <p>כן, וזה בדיוק הקטע. התבנית קובעת רק צבע ואייקון. אפשר לבחור תבנית Wi-Fi ואז להדביק קישור לערוץ יוטיוב או לכל כתובת אחרת, בלי למלא סיסמה.</p>
+            </details>
+            <details data-reveal>
+              <summary>אילו גרסאות אנדרואיד נתמכות?</summary>
+              <p>אנדרואיד 6.0 ומעלה. האפליקציה מותאמת גם למסכים קטנים.</p>
+            </details>
+            <details data-reveal>
+              <summary>מה אם ברקוד ממותג לא נסרק?</summary>
+              <p>האפליקציה בודקת כל ברקוד אוטומטית. אם משהו לא קריא, אפשר ללחוץ על “מצב סריקה אמין” שמעביר לעיצוב שחור־לבן מרובע עם תוצאה מקסימלית.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="24" height="24" fill="none">
+              <rect x="6" y="6" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="40" y="6" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="6" y="40" width="18" height="18" rx="5" fill="currentColor"/>
+              <rect x="40" y="40" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="51" y="51" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="51" y="40" width="7" height="7" rx="2" fill="currentColor"/>
+              <rect x="40" y="51" width="7" height="7" rx="2" fill="currentColor"/>
+            </svg>
+          </span>
+          <div>
+            <b>ברקוד סטודיו</b>
+            <p>ברקודים שנראים כמו שמותג היה עושה.</p>
+          </div>
+        </div>
+        <nav class="footer-nav" aria-label="ניווט תחתון">
+          <a href="#features">יכולות</a>
+          <a href="#templates">תבניות</a>
+          <a href="#scanner">סורק</a>
+          <a href="#download">הורדה</a>
+        </nav>
+        <p class="footer-note">
+          <span id="year">2026</span> · נבנה באהבה, קפה ועוד קצת ברקודים.
+        </p>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
