@@ -1,21 +1,87 @@
 {
-  "lastEventTime": 0,
-  "processedIds": [],
-  "installs": [],
-  "dayUsers": {},
+  "lastEventTime": 1794500978,
+  "processedIds": [
+    "bAnDP7crArfw",
+    "JafdtwKTCW96"
+  ],
+  "installs": [
+    "4e407dfa4481"
+  ],
+  "dayUsers": {
+    "2026-11-12": [
+      "4e407dfa4481"
+    ]
+  },
   "totals": {
-    "installs": 0,
-    "opens": 0,
+    "installs": 1,
+    "opens": 1,
     "qrDownloads": 0,
     "barcodeDownloads": 0,
     "scans": 0,
     "updateDownloads": 0,
     "siteDownloadClicks": 0,
     "siteVisits": 0,
-    "actions": 0
+    "actions": 2
   },
-  "byDay": {},
-  "byHour": {},
-  "byAction": {},
-  "recent": []
+  "byDay": {
+    "2026-11-12": {
+      "date": "2026-11-12",
+      "opens": 1,
+      "users": 1,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 0,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 2
+    }
+  },
+  "byHour": {
+    "2026-11-12": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "byAction": {
+    "app_install": 1,
+    "app_open": 1
+  },
+  "recent": [
+    {
+      "time": 1794500974,
+      "event": "app_install",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794500974,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    }
+  ]
 }
