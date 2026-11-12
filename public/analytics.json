@@ -1,21 +1,90 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-11-12T16:25:06.204Z",
   "totals": {
-    "installs": 0,
-    "opens": 0,
+    "installs": 2,
+    "opens": 2,
     "qrDownloads": 0,
     "barcodeDownloads": 0,
     "scans": 0,
     "updateDownloads": 0,
     "siteDownloadClicks": 0,
     "siteVisits": 0,
-    "actions": 0,
-    "uniqueInstalls": 0
+    "actions": 4,
+    "uniqueInstalls": 2
   },
-  "activeToday": 0,
-  "active7d": 0,
-  "byDay": [],
-  "byHourToday": [],
-  "byAction": {},
-  "recent": []
+  "activeToday": 2,
+  "active7d": 2,
+  "byDay": [
+    {
+      "date": "2026-11-12",
+      "opens": 2,
+      "users": 2,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 0,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 4
+    }
+  ],
+  "byHourToday": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "byAction": {
+    "app_install": 2,
+    "app_open": 2
+  },
+  "recent": [
+    {
+      "time": 1794499820,
+      "event": "app_install",
+      "extra": {
+        "version": "1.1.1"
+      }
+    },
+    {
+      "time": 1794499820,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.1"
+      }
+    },
+    {
+      "time": 1794499820,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.1"
+      }
+    },
+    {
+      "time": 1794499820,
+      "event": "app_install",
+      "extra": {
+        "version": "1.1.1"
+      }
+    }
+  ]
 }
