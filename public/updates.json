@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "1.1.1",
-  "notes": "בדיקת עדכון: התראות חכמות ועדכון עצמי מתוך האפליקציה.",
+  "versionCode": 2,
+  "versionName": "1.1.0",
+  "notes": "התראות חכמות, עדכוני גרסה בתוך האפליקציה ומצב מנהל לשליחת הודעות לכל המשתמשים.",
   "apkUrl": "https://neriaco555-del.github.io/barcode-studio/downloads/barcode-studio.apk",
   "publishedAt": "2026-11-12"
 }
