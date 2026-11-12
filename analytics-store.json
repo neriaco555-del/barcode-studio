@@ -1,8 +1,31 @@
 {
-  "lastEventTime": 1794500978,
+  "lastEventTime": 1794522105,
   "processedIds": [
     "bAnDP7crArfw",
-    "JafdtwKTCW96"
+    "JafdtwKTCW96",
+    "MpxxXAtm6zCF",
+    "hEBFUvvZwLCn",
+    "pnIc4Eh2uHVE",
+    "RE5iSdFNSKKD",
+    "DgkbrFFgIYa9",
+    "W9e4UWUYhqdJ",
+    "P66IzvXJNq64",
+    "IsgPFe06Duwo",
+    "Ai60bZ0W96cV",
+    "wqE26A5u4c5A",
+    "qbbEA7RqwDKV",
+    "r58CrqKXfY7e",
+    "EZDbzlw3k4aC",
+    "LGcFR0B5k6Kk",
+    "ot36LZ7ytMJe",
+    "lVhcbQfv7m6z",
+    "05ylWuokd9Ow",
+    "azGzQwAcQ21j",
+    "hu2geeVCbn2e",
+    "85knFJUM5yO9",
+    "sKTzL6LmPrd2",
+    "1D8RbdmSlUif",
+    "k8y5lSxkgE2l"
   ],
   "installs": [
     "4e407dfa4481"
@@ -10,30 +33,42 @@
   "dayUsers": {
     "2026-11-12": [
       "4e407dfa4481"
-    ]
+    ],
+    "2026-11-13": []
   },
   "totals": {
     "installs": 1,
-    "opens": 1,
-    "qrDownloads": 0,
+    "opens": 5,
+    "qrDownloads": 2,
     "barcodeDownloads": 0,
-    "scans": 0,
+    "scans": 1,
     "updateDownloads": 0,
-    "siteDownloadClicks": 0,
-    "siteVisits": 0,
-    "actions": 2
+    "siteDownloadClicks": 5,
+    "siteVisits": 11,
+    "actions": 25
   },
   "byDay": {
     "2026-11-12": {
       "date": "2026-11-12",
-      "opens": 1,
+      "opens": 5,
       "users": 1,
+      "qrDownloads": 2,
+      "barcodeDownloads": 0,
+      "scans": 1,
+      "updateDownloads": 0,
+      "siteDownloads": 4,
+      "actions": 22
+    },
+    "2026-11-13": {
+      "date": "2026-11-13",
+      "opens": 0,
+      "users": 0,
       "qrDownloads": 0,
       "barcodeDownloads": 0,
       "scans": 0,
       "updateDownloads": 0,
-      "siteDownloads": 0,
-      "actions": 2
+      "siteDownloads": 1,
+      "actions": 3
     }
   },
   "byHour": {
@@ -56,7 +91,33 @@
       0,
       0,
       0,
+      2,
       1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "2026-11-13": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -66,9 +127,174 @@
   },
   "byAction": {
     "app_install": 1,
-    "app_open": 1
+    "app_open": 5,
+    "site_visit": 11,
+    "apk_download_click": 5,
+    "qr_download": 2,
+    "scan_success": 1
   },
   "recent": [
+    {
+      "time": 1794522103,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794522103,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794522097,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794514874,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794513934,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794513507,
+      "event": "scan_success",
+      "extra": {
+        "format": "QR Code"
+      }
+    },
+    {
+      "time": 1794513444,
+      "event": "qr_download",
+      "extra": {
+        "ext": "png"
+      }
+    },
+    {
+      "time": 1794513389,
+      "event": "qr_download",
+      "extra": {
+        "ext": "png"
+      }
+    },
+    {
+      "time": 1794513344,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794510254,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794508722,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794508720,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794507562,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794507559,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794507484,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794507127,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794507068,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794506993,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794506989,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794506321,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794505815,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794505280,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794501731,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
     {
       "time": 1794500974,
       "event": "app_install",
