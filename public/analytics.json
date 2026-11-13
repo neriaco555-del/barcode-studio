@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-13T03:26:34.097Z",
+  "generatedAt": "2026-11-13T12:17:01.666Z",
   "totals": {
-    "installs": 1,
-    "opens": 5,
-    "qrDownloads": 2,
+    "installs": 2,
+    "opens": 7,
+    "qrDownloads": 5,
     "barcodeDownloads": 0,
     "scans": 1,
     "updateDownloads": 0,
-    "siteDownloadClicks": 5,
-    "siteVisits": 11,
-    "actions": 25,
-    "uniqueInstalls": 1
+    "siteDownloadClicks": 9,
+    "siteVisits": 19,
+    "actions": 43,
+    "uniqueInstalls": 2
   },
-  "activeToday": 0,
-  "active7d": 1,
+  "activeToday": 2,
+  "active7d": 2,
   "byDay": [
     {
       "date": "2026-11-12",
@@ -28,14 +28,14 @@
     },
     {
       "date": "2026-11-13",
-      "opens": 0,
-      "users": 0,
-      "qrDownloads": 0,
+      "opens": 2,
+      "users": 2,
+      "qrDownloads": 3,
       "barcodeDownloads": 0,
       "scans": 0,
       "updateDownloads": 0,
-      "siteDownloads": 1,
-      "actions": 3
+      "siteDownloads": 5,
+      "actions": 21
     }
   ],
   "byHourToday": [
@@ -51,9 +51,9 @@
     0,
     0,
     0,
+    1,
     0,
-    0,
-    0,
+    1,
     0,
     0,
     0,
@@ -65,14 +65,140 @@
     0
   ],
   "byAction": {
-    "app_install": 1,
-    "app_open": 5,
-    "site_visit": 11,
-    "apk_download_click": 5,
-    "qr_download": 2,
+    "app_install": 2,
+    "app_open": 7,
+    "site_visit": 19,
+    "apk_download_click": 9,
+    "qr_download": 5,
     "scan_success": 1
   },
   "recent": [
+    {
+      "time": 1794571438,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794567623,
+      "event": "qr_download",
+      "extra": {
+        "ext": "png"
+      }
+    },
+    {
+      "time": 1794567601,
+      "event": "qr_download",
+      "extra": {
+        "ext": "svg"
+      }
+    },
+    {
+      "time": 1794567595,
+      "event": "qr_download",
+      "extra": {
+        "ext": "png"
+      }
+    },
+    {
+      "time": 1794567316,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794567316,
+      "event": "app_install",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
+    {
+      "time": 1794567274,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794567255,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794567247,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794563801,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794562427,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794558018,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794557997,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794557291,
+      "event": "apk_download_click",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794557286,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794552892,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794551757,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794551320,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
     {
       "time": 1794522103,
       "event": "apk_download_click",
