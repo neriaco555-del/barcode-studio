@@ -1,5 +1,5 @@
 {
-  "lastEventTime": 1794763143,
+  "lastEventTime": 1794843735,
   "processedIds": [
     "bAnDP7crArfw",
     "JafdtwKTCW96",
@@ -47,7 +47,9 @@
     "rU9yVhM4CXSm",
     "hxCGSFBH8YMb",
     "UWnrgQRhOtP3",
-    "B6Oexh8R3im9"
+    "B6Oexh8R3im9",
+    "Urm5lyxBPpmg",
+    "sdh8dHVCiurH"
   ],
   "installs": [
     "4e407dfa4481",
@@ -61,18 +63,21 @@
       "8eff6039eb98",
       "4e407dfa4481"
     ],
-    "2026-11-15": []
+    "2026-11-15": [],
+    "2026-11-16": [
+      "4e407dfa4481"
+    ]
   },
   "totals": {
     "installs": 2,
-    "opens": 7,
+    "opens": 8,
     "qrDownloads": 5,
     "barcodeDownloads": 0,
-    "scans": 1,
+    "scans": 2,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
     "siteVisits": 23,
-    "actions": 47
+    "actions": 49
   },
   "byDay": {
     "2026-11-12": {
@@ -107,6 +112,17 @@
       "updateDownloads": 0,
       "siteDownloads": 0,
       "actions": 4
+    },
+    "2026-11-16": {
+      "date": "2026-11-16",
+      "opens": 1,
+      "users": 1,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 1,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 2
     }
   },
   "byHour": {
@@ -187,17 +203,57 @@
       0,
       0,
       0
+    ],
+    "2026-11-16": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   },
   "byAction": {
     "app_install": 2,
-    "app_open": 7,
+    "app_open": 8,
     "site_visit": 23,
     "apk_download_click": 9,
     "qr_download": 5,
-    "scan_success": 1
+    "scan_success": 2
   },
   "recent": [
+    {
+      "time": 1794843733,
+      "event": "scan_success",
+      "extra": {
+        "format": "QR Code"
+      }
+    },
+    {
+      "time": 1794843568,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
     {
       "time": 1794763142,
       "event": "site_visit",
