@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-17T02:30:10.096Z",
+  "generatedAt": "2026-11-17T20:59:07.436Z",
   "totals": {
     "installs": 2,
-    "opens": 8,
+    "opens": 9,
     "qrDownloads": 5,
     "barcodeDownloads": 0,
-    "scans": 2,
+    "scans": 3,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
-    "siteVisits": 23,
-    "actions": 49,
+    "siteVisits": 25,
+    "actions": 53,
     "uniqueInstalls": 2
   },
-  "activeToday": 0,
+  "activeToday": 1,
   "active7d": 2,
   "byDay": [
     {
@@ -58,6 +58,17 @@
       "updateDownloads": 0,
       "siteDownloads": 0,
       "actions": 2
+    },
+    {
+      "date": "2026-11-17",
+      "opens": 1,
+      "users": 1,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 1,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 4
     }
   ],
   "byHourToday": [
@@ -76,7 +87,7 @@
     0,
     0,
     0,
-    0,
+    1,
     0,
     0,
     0,
@@ -88,13 +99,41 @@
   ],
   "byAction": {
     "app_install": 2,
-    "app_open": 8,
-    "site_visit": 23,
+    "app_open": 9,
+    "site_visit": 25,
     "apk_download_click": 9,
     "qr_download": 5,
-    "scan_success": 2
+    "scan_success": 3
   },
   "recent": [
+    {
+      "time": 1794948661,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794933880,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
+    {
+      "time": 1794923290,
+      "event": "scan_success",
+      "extra": {
+        "format": "QR Code"
+      }
+    },
+    {
+      "time": 1794923250,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
     {
       "time": 1794843733,
       "event": "scan_success",
