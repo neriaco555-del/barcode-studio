@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T18:37:30.804Z",
+  "generatedAt": "2026-11-17T02:30:10.096Z",
   "totals": {
     "installs": 2,
     "opens": 8,
@@ -12,7 +12,7 @@
     "actions": 49,
     "uniqueInstalls": 2
   },
-  "activeToday": 1,
+  "activeToday": 0,
   "active7d": 2,
   "byDay": [
     {
@@ -78,7 +78,7 @@
     0,
     0,
     0,
-    1,
+    0,
     0,
     0,
     0,
