@@ -1,5 +1,5 @@
 {
-  "lastEventTime": 1794998641,
+  "lastEventTime": 1795009302,
   "processedIds": [
     "bAnDP7crArfw",
     "JafdtwKTCW96",
@@ -54,7 +54,8 @@
     "nw6nFyq3jKgd",
     "U8Zczir77oH8",
     "oTWnUvSUQjmp",
-    "WNvFloRApOKG"
+    "WNvFloRApOKG",
+    "6NIKn7K0ExMo"
   ],
   "installs": [
     "4e407dfa4481",
@@ -85,8 +86,8 @@
     "scans": 3,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
-    "siteVisits": 26,
-    "actions": 54
+    "siteVisits": 27,
+    "actions": 55
   },
   "byDay": {
     "2026-11-12": {
@@ -153,7 +154,7 @@
       "scans": 0,
       "updateDownloads": 0,
       "siteDownloads": 0,
-      "actions": 1
+      "actions": 2
     }
   },
   "byHour": {
@@ -317,12 +318,19 @@
   "byAction": {
     "app_install": 2,
     "app_open": 9,
-    "site_visit": 26,
+    "site_visit": 27,
     "apk_download_click": 9,
     "qr_download": 5,
     "scan_success": 3
   },
   "recent": [
+    {
+      "time": 1795009301,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
     {
       "time": 1794998639,
       "event": "site_visit",
