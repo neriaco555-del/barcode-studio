@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T02:55:40.312Z",
+  "generatedAt": "2026-11-18T11:48:34.651Z",
   "totals": {
     "installs": 2,
     "opens": 9,
@@ -8,8 +8,8 @@
     "scans": 3,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
-    "siteVisits": 25,
-    "actions": 53,
+    "siteVisits": 26,
+    "actions": 54,
     "uniqueInstalls": 2
   },
   "activeToday": 0,
@@ -69,6 +69,17 @@
       "updateDownloads": 0,
       "siteDownloads": 0,
       "actions": 4
+    },
+    {
+      "date": "2026-11-18",
+      "opens": 0,
+      "users": 0,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 0,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 1
     }
   ],
   "byHourToday": [
@@ -100,12 +111,19 @@
   "byAction": {
     "app_install": 2,
     "app_open": 9,
-    "site_visit": 25,
+    "site_visit": 26,
     "apk_download_click": 9,
     "qr_download": 5,
     "scan_success": 3
   },
   "recent": [
+    {
+      "time": 1794998639,
+      "event": "site_visit",
+      "extra": {
+        "page": "landing"
+      }
+    },
     {
       "time": 1794948661,
       "event": "site_visit",
