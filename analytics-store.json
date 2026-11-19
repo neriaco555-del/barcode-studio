@@ -1,5 +1,5 @@
 {
-  "lastEventTime": 1795009302,
+  "lastEventTime": 1795103231,
   "processedIds": [
     "bAnDP7crArfw",
     "JafdtwKTCW96",
@@ -55,7 +55,9 @@
     "U8Zczir77oH8",
     "oTWnUvSUQjmp",
     "WNvFloRApOKG",
-    "6NIKn7K0ExMo"
+    "6NIKn7K0ExMo",
+    "Z5PGTcOJqDqO",
+    "Jt6ryhN18mgO"
   ],
   "installs": [
     "4e407dfa4481",
@@ -76,18 +78,21 @@
     "2026-11-17": [
       "4e407dfa4481"
     ],
-    "2026-11-18": []
+    "2026-11-18": [],
+    "2026-11-19": [
+      "4e407dfa4481"
+    ]
   },
   "totals": {
     "installs": 2,
-    "opens": 9,
+    "opens": 10,
     "qrDownloads": 5,
     "barcodeDownloads": 0,
-    "scans": 3,
+    "scans": 4,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
     "siteVisits": 27,
-    "actions": 55
+    "actions": 57
   },
   "byDay": {
     "2026-11-12": {
@@ -152,6 +157,17 @@
       "qrDownloads": 0,
       "barcodeDownloads": 0,
       "scans": 0,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 2
+    },
+    "2026-11-19": {
+      "date": "2026-11-19",
+      "opens": 1,
+      "users": 1,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 1,
       "updateDownloads": 0,
       "siteDownloads": 0,
       "actions": 2
@@ -313,17 +329,57 @@
       0,
       0,
       0
+    ],
+    "2026-11-19": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ]
   },
   "byAction": {
     "app_install": 2,
-    "app_open": 9,
+    "app_open": 10,
     "site_visit": 27,
     "apk_download_click": 9,
     "qr_download": 5,
-    "scan_success": 3
+    "scan_success": 4
   },
   "recent": [
+    {
+      "time": 1795103231,
+      "event": "scan_success",
+      "extra": {
+        "format": "QR Code"
+      }
+    },
+    {
+      "time": 1795103220,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
     {
       "time": 1795009301,
       "event": "site_visit",
