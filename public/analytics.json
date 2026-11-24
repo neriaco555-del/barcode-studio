@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-22T21:50:15.416Z",
+  "generatedAt": "2026-11-24T00:56:28.950Z",
   "totals": {
     "installs": 2,
-    "opens": 11,
+    "opens": 12,
     "qrDownloads": 7,
     "barcodeDownloads": 0,
-    "scans": 4,
+    "scans": 5,
     "updateDownloads": 0,
     "siteDownloadClicks": 9,
     "siteVisits": 27,
-    "actions": 60,
+    "actions": 62,
     "uniqueInstalls": 2
   },
-  "activeToday": 1,
-  "active7d": 2,
+  "activeToday": 0,
+  "active7d": 1,
   "byDay": [
     {
       "date": "2026-11-12",
@@ -102,6 +102,17 @@
       "updateDownloads": 0,
       "siteDownloads": 0,
       "actions": 3
+    },
+    {
+      "date": "2026-11-23",
+      "opens": 1,
+      "users": 1,
+      "qrDownloads": 0,
+      "barcodeDownloads": 0,
+      "scans": 1,
+      "updateDownloads": 0,
+      "siteDownloads": 0,
+      "actions": 2
     }
   ],
   "byHourToday": [
@@ -120,7 +131,7 @@
     0,
     0,
     0,
-    1,
+    0,
     0,
     0,
     0,
@@ -132,13 +143,27 @@
   ],
   "byAction": {
     "app_install": 2,
-    "app_open": 11,
+    "app_open": 12,
     "site_visit": 27,
     "apk_download_click": 9,
     "qr_download": 7,
-    "scan_success": 4
+    "scan_success": 5
   },
   "recent": [
+    {
+      "time": 1795449287,
+      "event": "scan_success",
+      "extra": {
+        "format": "QR Code"
+      }
+    },
+    {
+      "time": 1795449236,
+      "event": "app_open",
+      "extra": {
+        "version": "1.1.2"
+      }
+    },
     {
       "time": 1795354025,
       "event": "qr_download",
